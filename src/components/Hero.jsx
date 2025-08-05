@@ -2,7 +2,7 @@ export default function Hero({
   name = 'Yi Wei',
   tagline = 'Software. Data. Quality.',
   subtitle = 'Keen developer ready to enter the industry and build impactful software while growing my technical range. I combine problem solving with a growth mindset and adapt to new challenges while seeking guidance.',
-  resumeHref = '/Lim_Yi_Wei_Resume_August_2025.pdf',
+  resumeHref = '/Lim_Yi_Wei_Resume_2025.pdf',
   imageSrc = '/myImage.jpg', // replace with your actual photo path
 }) {
   return (
