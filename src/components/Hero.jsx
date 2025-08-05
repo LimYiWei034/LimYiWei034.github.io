@@ -2,8 +2,8 @@ export default function Hero({
   name = 'Yi Wei',
   tagline = 'Software. Data. Quality.',
   subtitle = 'Keen developer ready to enter the industry and build impactful software while growing my technical range. I combine problem solving with a growth mindset and adapt to new challenges while seeking guidance.',
-  resumeHref = '/Lim_Yi_Wei_Resume_2025.pdf',
-  imageSrc = '/me.jpg', // replace with your actual photo path
+  resumeHref = '/Lim_Yi_Wei_Resume_August_2025.pdf',
+  imageSrc = '/myImage.jpg', // replace with your actual photo path
 }) {
   return (
     <section
@@ -31,7 +31,8 @@ export default function Hero({
           <div className="flex flex-wrap gap-6">
             <a
             href={resumeHref}
-            download="Lim_Yi_Wei_Resume_2025.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block px-10 py-5 border-4 bg-primary border-white text-white rounded-full font-semibold shadow-xl transition transform duration-200 ease-out hover:scale-105 hover:brightness-125 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-primary text-lg"
             aria-label="Download resume"
             >
